@@ -1,16 +1,16 @@
-"use client"
+"use client";
 import Image from "next/image";
 import usman from "../app/public/image/usman.jpeg";
 import { ImHtmlFive } from "react-icons/im";
 import { SiTypescript, SiJavascript, SiNextdotjs } from "react-icons/si";
 import { TbBrandCss3 } from "react-icons/tb";
 import Typewriter from "typewriter-effect";
-import "../app/style/page.css"
+import "../app/style/page.css";
 
 export default function Home() {
   return (
     <div className="background">
-      <title>USMAN PORTFOLIO</title>
+      <title>USMAN PORTFOLIO CHeck</title>
 
       <section className="sec1">
         <div className="custom-container">
@@ -75,6 +75,5 @@ export default function Home() {
         </div>
       </section>
     </div>
-      );
+  );
 }
-
