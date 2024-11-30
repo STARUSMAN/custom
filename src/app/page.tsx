@@ -10,7 +10,7 @@ import "../app/style/page.css";
 export default function Home() {
   return (
     <div className="background">
-      <title>USMAN PORTFOLIO CHeck</title>
+      <title>USMAN PORTFOLIO</title>
 
       <section className="sec1">
         <div className="custom-container">
