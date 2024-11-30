@@ -1,0 +1,79 @@
+.custom-element31{
+  color: black; /* text-black */
+  font-family: 'Inter', sans-serif; /* Assuming 'body-font' refers to the default body font (Inter in Tailwind) */
+}
+.custom-element31{
+    background-image: url('../public/image/2.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the whole header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 110px; /* Set the desired height of the header */
+    color: white; /* Adjust text color as needed */
+    display: flex;
+    align-items: center;
+}
+.custom-container31 {
+  max-width: 100%; /* container in Tailwind is a responsive width based on screen size */
+  margin-left: auto;
+  margin-right: auto; /* mx-auto centers the element horizontally */
+  display: flex;
+  flex-wrap: wrap; /* flex-wrap allows the items to wrap onto new lines */
+  padding: 1.25rem; /* p-5 corresponds to 1.25rem (20px) padding */
+  flex-direction: column; /* flex-col arranges items in a column by default */
+  align-items: center; /* items-center centers the items along the cross axis */
+}
+
+@media (min-width: 768px) {
+  .custom-container31 {
+    flex-direction: row; /* On medium screens and up, flex direction changes to row */
+  }
+}
+.custom-title31 {
+  display: flex;
+  font-family: 'Inter', sans-serif; /* Assuming 'title-font' is a default font (like Inter in Tailwind) */
+  font-weight: 500; /* font-medium sets the font weight to 500 */
+  align-items: center; /* items-center aligns the items along the cross axis (vertically in flex) */
+  color: black; /* text-black sets the text color to black */
+  margin-bottom: 1rem; /* mb-4 corresponds to 1rem (16px) margin-bottom */
+}
+
+@media (min-width: 768px) {
+  .custom-title31 {
+    margin-bottom: 0; /* On medium screens and up, remove the margin-bottom (md:mb-0) */
+  }
+}
+.custom-text31 {
+  color: #374151; /* text-black-700 corresponds to this shade of black */
+  font-weight: bold; /* font-bold sets the font weight to bold */
+  margin-left: 0.75rem; /* ml-3 corresponds to 0.75rem (12px) margin-left */
+  font-size: 1.25rem; /* text-xl corresponds to 1.25rem (20px) font size */
+}
+.custom-flex31 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* items-center aligns items along the cross axis */
+  font-size: 1rem; /* text-base corresponds to 1rem (16px) font size */
+  justify-content: center; /* justify-center centers items horizontally */
+  gap: 2.5rem; /* gap-10 corresponds to 2.5rem (40px) between items */
+}
+
+@media (min-width: 768px) {
+  .custom-flex31 {
+    margin-right: auto; /* md:mr-auto pushes the item to the left in larger screens */
+    margin-left: 1rem; /* md:ml-4 corresponds to 1rem (16px) margin-left */
+    padding-top: 0.25rem; /* md:py-1 corresponds to 0.25rem (4px) vertical padding */
+    padding-left: 1rem; /* md:pl-4 corresponds to 1rem (16px) left padding */
+    border-left: 1px solid #d1d5db; /* md:border-l sets a left border with color gray-400 */
+  }
+}
+.f1 {
+  width: 2.5rem; /* w-10 corresponds to 2.5rem (40px) width */
+  height: 2.5rem; /* h-10 corresponds to 2.5rem (40px) height */
+}
+.custom-size31 {
+  width: 2rem; /* w-8 corresponds to 2rem (32px) width */
+  height: 2rem; /* h-8 corresponds to 2rem (32px) height */
+}
+
+
+

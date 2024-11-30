@@ -1,0 +1,176 @@
+.background{
+     background-image: url('../public/image/3.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the whole header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100%; /* Set the desired height of the header */
+   color: #000000;
+    font-family: 'YourPreferredFont', sans-serif;
+    font-weight: 800;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+/* Custom CSS for text-black */
+.custom{
+  color: black;
+  font-family: 'Helvetica, Arial, sans-serif'; /* Replace with your preferred font stack */
+}
+.custom-container {
+  max-width: 1200px; /* Adjust based on your layout */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem; /* 5px in rem */
+  padding-right: 1.25rem; /* 5px in rem */
+  padding-top: 6rem; /* 24px in rem */
+  padding-bottom: 6rem; /* 24px in rem */
+}
+.custom-flex-wrap {
+  display: flex;           /* Enables flexbox layout */
+  flex-wrap: wrap;         /* Allows wrapping of flex items */
+  width: 100%;             /* Sets the width to 100% */
+  margin-bottom: 5rem;     /* Adds a bottom margin of 5rem */
+}
+.custom-responsive-width {
+  width: 100%;            /* Default width for all screen sizes */
+  margin-bottom: 1.5rem;  /* Default bottom margin (6 = 1.5rem) */
+}
+
+@media (min-width: 1024px) { /* Tailwind's lg breakpoint starts at 1024px */
+  .custom-responsive-width {
+    width: 50%;           /* Sets width to 50% for large screens */
+    margin-bottom: 0;     /* Removes bottom margin for large screens */
+  }
+}
+.custom-title {
+  font-size: 1.5rem;         /* Default text size (2xl) */
+  font-weight: 800;          /* Extra bold text */
+  font-family: 'YourTitleFont', sans-serif; /* Replace with your specific title font family */
+  margin-bottom: 0.5rem;     /* Bottom margin (2 = 0.5rem) */
+  color: black;              /* Text color */
+
+  /* Responsive style for small screens and up (sm) */
+  @media (min-width: 640px) { /* Tailwind's sm breakpoint starts at 640px */
+    font-size: 1.875rem;     /* Text size for sm:text-3xl */
+  }
+}
+.custom-divider {
+  height: 0.25rem;          /* Height of 1 (1 = 0.25rem) */
+  width: 5rem;              /* Width of 20 (20 = 5rem) */
+  border-radius: 0.25rem;   /* Rounded corners (default rounded = 0.25rem) */
+}
+.custom-text-box {
+  width: 100%;              /* Default width for all screen sizes */
+  font-weight: bold;         /* Bold text */
+  color: black;             /* Black text color */
+  line-height: 1.625;       /* Relaxed line height (default for leading-relaxed) */
+
+  /* Responsive styles for large screens (lg) */
+  @media (min-width: 1024px) { /* Tailwind's lg breakpoint starts at 1024px */
+    width: 50%;             /* Set width to 50% for large screens */
+  }
+}
+.custom-container2 {
+  max-width: 1200px;        /* Adjust based on your layout */
+  margin-left: auto;        /* Centers the container */
+  margin-right: auto;       /* Centers the container */
+  padding-left: 0.5rem;     /* Horizontal padding (2 = 0.5rem) */
+  padding-right: 0.5rem;    /* Horizontal padding (2 = 0.5rem) */
+  padding-top: 2rem;        /* Top padding (8 = 2rem) */
+  padding-bottom: 2rem;     /* Bottom padding (8 = 2rem) */
+  display: flex;            /* Enables flexbox layout */
+  flex-wrap: wrap;          /* Allows items to wrap onto the next line */
+  justify-content: center;  /* Centers items horizontally */
+  align-items: center;      /* Centers items vertically */
+  gap: 1.5rem;              /* Space between items (space-x-6 = 6px = 1.5rem) */
+  font-size: 1.5rem;        /* Text size (2xl = 1.5rem) */
+  font-weight: 700;         /* Bold text */
+}
+.custom-card {
+  display: flex;                /* Enables flexbox layout */
+  flex-direction: column;       /* Stacks items vertically */
+  align-items: center;          /* Centers items horizontally */
+  background-color: #3b82f6;    /* Blue-500 background color */
+  border: 2px solid #7c2d12;    /* Orange-950 border */
+  padding: 1rem;                /* Padding of 1rem (4 = 1rem) */
+  transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+}
+
+.custom-card:hover {
+  transform: scale(1.1);        /* Scales the element to 110% on hover */
+}
+.custom-headingf {
+  color: white;           /* Text color */
+  font-size: 3.75rem;     /* Font size for 6xl (6xl = 3.75rem) */
+}
+.custom-textF {
+  margin-top: 0.5rem;      /* Margin top (mt-2 = 0.5rem) */
+  font-size: 1.125rem;     /* Font size for text-lg (lg = 1.125rem) */
+  color: white;            /* Text color */
+}
+.custom-cardn {
+  display: flex;                /* Enables flexbox layout */
+  flex-direction: column;       /* Stacks items vertically */
+  align-items: center;          /* Centers items horizontally */
+  background-color: #22c55e;    /* Green-500 background color */
+  border: 2px solid #7c2d12;    /* Orange-950 border */
+  padding: 1rem;                /* Padding of 1rem (4 = 1rem) */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+.custom-cardn:hover {
+  transform: scale(1.1);        /* Scales the element to 110% on hover */
+}
+.custom-cardi {
+  display: flex;                /* Enables flexbox layout */
+  flex-direction: column;       /* Stacks items vertically */
+  align-items: center;          /* Centers items horizontally */
+  background-color: #f87171;    /* Red-400 background color */
+  border: 2px solid #7c2d12;    /* Orange-950 border */
+  padding: 1rem;                /* Padding of 1rem (4 = 1rem) */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+.custom-cardi:hover {
+  transform: scale(1.1);        /* Scales the element to 110% on hover */
+}
+.custom-cardl {
+  display: flex;                /* Enables flexbox layout */
+  flex-direction: column;       /* Stacks items vertically */
+  align-items: center;          /* Centers items horizontally */
+  background-color: #1e3a8a;    /* Blue-900 background color */
+  border: 2px solid #7c2d12;    /* Orange-950 border */
+  padding: 1rem;                /* Padding of 1rem (4 = 1rem) */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+.custom-cardl:hover {
+  transform: scale(1.1);        /* Scales the element to 110% on hover */
+}
+.custom-cardg {
+  display: flex;                /* Enables flexbox layout */
+  flex-direction: column;       /* Stacks items vertically */
+  align-items: center;          /* Centers items horizontally */
+  background-color: #c53030;    /* Red-700 background color */
+  border: 2px solid #7c2d12;    /* Orange-950 border */
+  padding: 1rem;                /* Padding of 1rem (4 = 1rem) */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+.custom-cardg:hover {
+  transform: scale(1.1);        /* Scales the element to 110% on hover */
+}
+.custom-textp {
+  font-weight: 900;        /* Bold font weight */
+  text-align: center;      /* Centers the text horizontally */
+  
+}
+
+
+
+
+
+
+
+
+
+
+
